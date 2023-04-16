@@ -1,7 +1,7 @@
 ---
-title: "Title"
+title: "Turkey's Visitor Behavior"
 author: 
-  - Last Name, First Name[^1]
+  - Aykal, Aslı Nil[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa.csl
 header-includes:
@@ -32,34 +32,32 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== FOOTNOTES ============================== -->
 <!-- ======================================================================= -->
-[^1]: Student ID, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
+[^1]: 20080470, [Github Repo](https://github.com/aslaykal/proposal.git)
 
-# Important Information About Midterm
 
-\colorbox{BurntOrange}{WRITE YOUR GITHUB REPO LINK ON LINE 35 IN THIS FILE!}
 
-**Project Proposal submisson will be done by uploading a zip file to the ekampus system along with the Github repo link. If you do not upload a zip file to the system and do not provide a Github repo link, you will be deemed not to have entered the midterm and final exams.**
-
-**You must upload your project folder (`YourStudentID.zip` file) to *ekampus.ankara.edu.tr* until 16 April 2023, 23:59.**
-
-\colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
 
 # Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
+Turkey has been a country that has been attracting tourists for years with its cultural and natural beauties. With its culture, geopolitical location, climate, natural and artificial heritage, history, gastronomy and diverse social structure, it attracts attention from a large part of the world, and in this sense, it positively affects tourism statistics. Compared to many countries, Turkey has higher visitor statistics for the reasons mentioned. However, in recent years, fluctuations rather than stability have been observed in the number of visitors to Turkey. In this study, it has been investigated how the number of foreign visitors in Turkey has changed in the last five years and what factors contributed to this change. For this analysis, a data set consisting of 62 observers and 10 variables obtained by the Central Bank of the Republic of Turkey was used. By using the monthly values of the last 5 years, the effects of factors such as the covid-19 process, inflation rate, terrorist acts, health tourism and common religious identity that shape tourism statistics and how they affect them were investigated.
 
-The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
-
-In this section, mention the purpose and importance of your work in a few paragraphs.
-
-## Literature Review
-
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
 
 
 
-**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
+## Literature Review
+Recently, certain fluctuations have been observed in Turkey's visitor statistics, especially in certain periods. Factors such as the pandemic process that came with the Covid-19 epidemic, the increase in the inflation rate, the terrorist acts in recent years, the change in the demand for health tourism recently, and the common culture-belief have a direct or indirect effect on these fluctuations.
 
-**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
+Pektaş and Ünlüönen (2019), analyzed the relationship between inflation and tourism performance in Turkey and observed that tourism demand increased between 2017-2018 when Turkey had the highest inflation level at the time of the research. In the period of increased inflation in Turkey between 2004 and 2018, tourism revenues and the number of foreign tourists also increased. In addition, according to the CPI data analyzed between 2004-2018, inflation is not a direct determinant of the total number of tourists and tourism revenues. However, they also stated that inflation cannot be the only factor affecting tourism performance.
+[@pektas:2020]
+
+Çeti and Ünlüönen (2019), on the other hand, made an economic evaluation of health tourism by taking advantage of the number of tourists coming to Turkey to receive health services and taking into account the expenditures of these tourists. As a result of their findings, an increase has been observed in the number of visitors coming to Turkey for health purposes in recent years. In 2003, the ratio of the number of tourists coming for health purposes to the total number of tourists was determined as 0.86%, and this percentage increased to 1.21% at the end of 2018. 2018 was the year in which the ratio of the number of tourists coming for health purposes to the total number of tourists was the highest. As a result, the demand for health tourism has increased for Türkiye.[@buse2020economic]
+
+Bilgiçli and Çolaksel (2019) indicates that the reason why Turkey is especially popular with visitors from the Middle East is that it creates a positive image as a country of religion, cultural and historical ties, shopping-fashion, TV series, health and vacation. Proximity to Arabs in terms of belief and culture, Islamophobic perspectives of Europe and America, especially after September 11, seeing Turkey as a modern Muslim country, affordable shopping opportunities and prices, seeing Turkey as a role model, Arab investors' interest in Turkey. The reasons such as the increase in the number of Arabs buying houses with the interest in Turkey's culture, historical beauties and nature are also important factors in Turkey's receiving a large number of Middle Eastern visitors.[@bilgiccli2019orta]
+
+Bassil, Saleh, and Anwar (2017), examine the effects of local and transnational terrorism on the number of visitors to Lebanon, Turkey and Israel. This factor has a negative impact on visitor numbers, as terrorism makes tourists nervous about personal safety and security issues. In addition, the empirical results analyzed between 1995 and 2007 showed that terrorism in a country caused a decrease in the number of visitors not only to that country but also to other countries. Especially the terrorist incidents in Israel caused changes in the number of tourists coming to Turkey and Lebanon. In their findings, they stated the total effect of local and transnational terrorism in Turkey on the logarithm of Turkey's visitor numbers as -0.057 and -0.135, respectively. This revealed a decrease of 18% in the total number of visitors.[@bassil2019terrorism]
+
+Günay, Bayraktaroğlu, Özkul (2020), The pandemic process that came with the Covid-19 epidemic caused countries to impose international mobility restrictions as a precaution against the virus. Taking these measures to stop the spread of the virus has almost stopped international mobility and tourism activities have been postponed. However, Özdemir and Yıldız (2020) state that the tourism sector is the most affected area as a result of the adverse conditions of the Pandemic, and that the COVID-19 outbreak has changed the future travel and vacation plans and the understanding of tourists.[@gunay2020assessing;@ozdemir2020covid]
+
+
 
 \newpage
 # References {#references}
